@@ -11,5 +11,7 @@ test('find "team" to be "["team", "City"]"', () => {
     team: "City",
   };
 
+  console.log("This is an example");
+
   expect(index.findKey(obj, "team")).toMatchObject([["team", "City"]]);
 });
